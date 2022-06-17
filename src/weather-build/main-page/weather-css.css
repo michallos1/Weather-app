@@ -1,26 +1,34 @@
+body {
+    background-color: #EBFFFF;
+}
 
 .weather-app {
-    background-color: cornflowerblue;
+    background-color: #00D9FF;
     padding: 1rem;
     border: 1px black solid;
     position: absolute;
-    width: 15rem;
-    height: 20rem;
-    margin: 5rem 5rem;
+    width: 50%;
+    height: 40%;
+    top: 15%;
+    left: 25%;
     
 
 }
 
 .weather-app-name {
-    background-color: rgb(255, 195, 122);
+    /* background-color: rgb(255, 195, 122); */
     height: 3rem;
     text-align: center;
+    font-size: 2rem;
 
 }
 
 .search-bar > input{
     height: 2rem;
-    width: 97%;
+    width: 16rem;
+    margin-top: 1rem;
+    margin-left: calc(50% - 8rem);
+    margin-bottom: 1rem;
 }
 
 .weather-info {

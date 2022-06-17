@@ -40,9 +40,9 @@ export default function WeatherApp () {
     }    
 
     return(
-        <div className="bg-color">
+        <div className="main">
             <div className="weather-app">
-                <div className="weather-app-name">Weather</div>
+                <div className="weather-app-name">Weather App</div>
                 <div className="search-bar">
                     <input 
                         type="text"
@@ -56,7 +56,7 @@ export default function WeatherApp () {
                 {(typeof pogoda.main != 'undefined') ? (
                     <InfoApp data={pogoda} />
                 ) : (
-                    <div>???</div>
+                    <div></div>
                 )}
             </div>
         </div>

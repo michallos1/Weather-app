@@ -13,10 +13,10 @@ import {
 function App() {
   return (
     <Router>
-      <nav>
+      <nav className="Nav-bar">
         <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/pogoda-info">Information</Link></li>
+          <li><Link to="/">Weather App</Link></li>
+          <li><Link to="/pogoda-info">Detail Information</Link></li>
         </ul>
       </nav>
 
