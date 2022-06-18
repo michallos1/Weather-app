@@ -5,22 +5,22 @@
   width: 100vw;
 }
 
-.Nav-bar > ul {
-  list-style: none;
-}
-
 .Nav-bar > ul > li {
   background-color: #ADFFD6;
-  color: white;
-  list-style: none;
   display: inline-block;
-  text-decoration: none;
   padding: 0.6rem;
   margin-left: 0.2rem ;
   margin-right: 0.2rem ;
+  list-style: none;
+
 } 
 
 .Nav-bar > ul > li:hover {
   color: white;
   background-color: #5CFFAD;
+}
+
+.Nav-bar > ul > li > a {
+text-decoration: none;
+color: black;
 }
