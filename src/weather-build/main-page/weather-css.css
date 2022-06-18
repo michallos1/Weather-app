@@ -36,11 +36,17 @@ body {
     margin-bottom: 1rem;
 }
 
+.search-bar > input[type="text"]{
+    padding-left: 0.4rem;
+    border: none;
+}
+
+
 .weather-info {
     display: flex;
-    flex-direction: column;
-    background-color: aquamarine;
+    flex-direction: row;
     align-content: center;
+    align-items: center;
 }
 
 .city-name {
@@ -52,4 +58,11 @@ body {
 .temperature, .hpa, .humidity, .sunrise, .sunset   {
     margin: 0.1rem;
     height: 2rem;
+}
+
+.op1, .op2 {
+    flex-grow: 1;
+    padding: 2rem;
+    /* border-radius: 15px; */
+    /* background-color: rgba(255,255,255,0.25); */
 }
